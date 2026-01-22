@@ -63,7 +63,7 @@ export default function Team() {
 
   return (
     <div>
-          <div className="w-1/2 px-6">
+          <div className="md:w-1/2 px-6">
     <Title title="Une équipe, un seul brief, une exigence continue." subtitle="Team"/>
 
     <p className="text-justify text-black/85  text-lg mt-5">

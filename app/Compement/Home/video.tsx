@@ -47,7 +47,7 @@ function Video() {
   const resetMouse = () => setMousePos({ x: 0, y: 0 });
 
   return (
-    <div className="w-full min-h-screen  flex items-center justify-center px-6">
+    <div className="w-full md:min-h-screen  flex items-center justify-center px-6">
       <div 
         ref={containerRef}
         onMouseMove={handleMouseMove}
@@ -60,7 +60,7 @@ function Video() {
         {/* Vidéo avec filtre subtil */}
         <video
           ref={videoRef}
-          autoPlay
+          
           loop
           
           playsInline

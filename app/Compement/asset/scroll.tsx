@@ -55,8 +55,8 @@ function Scroll ({content}:{content:Array<any>}){
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/40 opacity-0
-                              group-hover:opacity-100 transition-opacity duration-500
+              <div className="absolute inset-0 bg-black/40 md:opacity-0
+                              md:group-hover:opacity-100 transition-opacity duration-500
                               flex items-end p-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl text-[#801010] font-sans  font-bold tracking-wide">

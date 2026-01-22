@@ -1,13 +1,14 @@
 import video_hero from "~/asset/hero/video_hero.mp4"
 import Button from "../asset/Button";
 import Title from "../asset/Tile";
+
 function Hero(){
     return(
-           <div className="flex  text-black/90">  
-            <div className="w-2/3 h-screen"> 
+           <div className="flex md:flex-row flex-col  text-black/90">  
+            <div className="md:w-2/3 w-full md:h-screen  h-80 " > 
                <video muted autoPlay loop className="w-full h-full object-cover"  > <source src={video_hero} type="video/mp4" />  </video></div>  
 
-<div className="w-1/3  font-luxurious p-10 ">
+<div className="md:w-1/3 w-full  font-luxurious p-10 ">
 <Title title="Un seul partenaire pour toutes vos solutions en communication" subtitle="About" />
 
     <p className="text-justify text-black/85  text-lg mt-5">
