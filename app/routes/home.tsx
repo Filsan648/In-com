@@ -8,6 +8,7 @@ import StatsSection from "~/Compement/Home/state";
 import Team from "~/Compement/Home/team";
 import Client  from "~/Compement/Home/client";
 import Footer from "~/Compement/Generale/footer";
+
 export default function Home() {
   return (<div className="bg-white font-luxurious flex flex-col gap-10">
 
