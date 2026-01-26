@@ -25,7 +25,7 @@ function CircularText({ text, isPlaying }: { text: string; isPlaying: boolean })
 function Video() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   const togglePlay = () => {

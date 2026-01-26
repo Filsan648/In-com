@@ -5,7 +5,8 @@ import Univers_univers from "~/Compement/univers/univers";
 import Welcome from "~/Compement/univers/welcome";
 import Postion from "~/Compement/univers/position";
 import Adn from "~/Compement/univers/adn";
-
+import Valeur from "~/Compement/univers/valeur";
+import Galerie from "~/Compement/univers/galerie";
 export default function Home() {
   return (<div className="bg-white font-luxurious flex flex-col gap-10">
 
@@ -17,6 +18,8 @@ export default function Home() {
       <Univers_univers />
             <Postion />
              <Adn />
+              <Valeur />
+              <Galerie />
           <Footer />
   </div>);
 }
