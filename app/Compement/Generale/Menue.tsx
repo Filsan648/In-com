@@ -10,7 +10,7 @@ const linkClass = ({ isActive }: { isActive: boolean }) =>
     return(
          <div className="fixed top-0 z-50 w-full">
         <div className=" h-16 bg-white flex text-3xl gap-5 font-luxurious justify-between items-center pl-16 pr-11 border-b border-b-black ">
-       <div> <p><span className="text-yellow-500">In</span> COM </p></div>
+       <div> <p>In COM </p></div>
 
 
         <div className="  flex text-lg gap-5 font-luxurious ">
@@ -18,8 +18,8 @@ const linkClass = ({ isActive }: { isActive: boolean }) =>
             Home
           </NavLink>
 <NavLink to="/univers" className={linkClass}>Univers</NavLink>
-<nav>Service</nav>
-<nav>Contact</nav>
+<NavLink to="/service" className={linkClass}>Service</NavLink>
+
         </div>
 
         </div>

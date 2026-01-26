@@ -2,7 +2,7 @@ import Menue from "~/Compement/Generale/Menue";
 import Footer from "~/Compement/Generale/footer";
 import Banner from "~/Compement/Generale/banner";
 import Univers_univers from "~/Compement/univers/univers";
-import Welcome from "~/Compement/univers/welcome";
+import Welcome from "~/Compement/Generale/welcome";
 import Postion from "~/Compement/univers/position";
 import Adn from "~/Compement/univers/adn";
 import Valeur from "~/Compement/univers/valeur";
@@ -13,7 +13,7 @@ export default function Home() {
     <Menue />
      <div>
        <Banner />
-       <Welcome />
+       <Welcome title="Bienvenue dans l’univers in’COM "  description="Là où la créativité rencontre la stratégie, et où chaque idée prend vie avec sens, style et impact. "/>
         </div >
       <Univers_univers />
             <Postion />

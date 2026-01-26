@@ -23,7 +23,7 @@ const togglePlay = (index) => {
 setOpenIndex(prev => (prev === index ? null : index))
 }
 return(
-    <div className="px-6 bg-[#801010] text-white  py-10 grid  md:grid-cols-2 grid-cols-1 ">
+    <div className="px-6 bg-[#801010]  py-10 grid  md:grid-cols-2 grid-cols-1 ">
         <div>
  <p className="text-sm p-2 uppercase text-yellow-500/60">Nos Valeurs</p>
  <Title title=" Flexibilité, Rigueur, créativité, engagement."   subtitle="" />
