@@ -59,7 +59,7 @@ function Scroll ({content}:{content:Array<any>}){
                               md:group-hover:opacity-100 transition-opacity duration-500
                               flex items-end p-6">
                 <div className="space-y-2">
-                  <h3 className="text-2xl text-[#801010] font-sans  font-bold tracking-wide">
+                  <h3 className="text-2xl text-white font-sans  font-bold tracking-wide">
                     {item.title}
                   </h3>
                   <p className="text-sm text-white/90 leading-relaxed">

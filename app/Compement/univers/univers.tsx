@@ -10,10 +10,10 @@ function Univers_univers() {
     <section className=" py-20 px-6 lg:px-16 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
-        {/* --- COLLAGE IMAGES (STYLE MUSEE/AWARDS) --- */}
+
         <div className="relative w-full h-[500px] lg:h-[700px]">
           
-          {/* Mobile : Grille élégante */}
+   
           <div className="grid grid-cols-2 gap-3 lg:hidden">
             {[djibouti, univer3, homme, office].map((img, index) => (
               <div key={index} className="border-[0.5px] border-yellow-600/30 p-1 bg-black">
@@ -22,22 +22,18 @@ function Univers_univers() {
             ))}
           </div>
  
-          {/* Desktop : Composition Prestige */}
+      
           <div className="hidden lg:block relative h-full">
-            {/* Image 1: Djibouti - Arrière-plan gauche */}
+
             <div className="absolute top-0 left-0 w-[320px] h-[400px]   z-10   ">
               <img src={univer3} className="w-full h-full object-cover  " alt="Vision" />
             </div>
 
-            {/* Image 2: Homme - Centre (Focus) */}
-            
-
-            {/* Image 3: Univer3 - Droite Haute */}
             <div className="absolute top-[40px] right-0 w-[220px] h-[300px]   z-20  shadow-2xl">
               <img src={djibouti} className="w-full h-full object-cover  " alt="Strategy" />
             </div>
 
-            {/* Image 4: Office - Bas Gauche */}
+        
             <div className="absolute -bottom-20 left-0 w-[250px] h-[280px]   z-40 backdrop-blur-md">
               <img src={homme} className="w-full h-full object-cover " alt="Office" />
             </div>
@@ -45,13 +41,12 @@ function Univers_univers() {
               <img src={with_kiki} className="w-full h-full object-cover" alt="Office" />
             </div>
 
-            {/* Éléments décoratifs (Lignes d'or) */}
             <div className="absolute -top-10 -left-10 w-40 h-40 border-l border-t border-[#801010] z-0"></div>
             <div className="absolute -bottom-10 -right-6 w-40 h-40 border-r border-b border-[#801010] z-0"></div>
           </div>
         </div>
 
-        {/* --- TEXTE (STYLE EDITORIAL) --- */}
+
         <div className="relative  lg:pl-10">
           <div className="mb-8 overflow-hidden">
             <Title

@@ -2,7 +2,7 @@ import StatItem from "../asset/sateitem";
 
 function StatsSection() {
   const stats = [
-    { value: "3", label: "year of experience" },
+    { value: "5", label: "year of experience" },
     { value: "20", label: "Employer" },
     { value: "30", label: "project" },
     { value: "50", label: "customer" },

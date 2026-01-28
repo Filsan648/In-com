@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 function Menue(){
+  
 const linkClass = ({ isActive }: { isActive: boolean }) =>
     `relative  font-medium tracking-wide transition-all duration-300
      after:absolute after:left-0 after:-bottom-1  after:h-px after:w-0
@@ -8,11 +9,9 @@ const linkClass = ({ isActive }: { isActive: boolean }) =>
     `;
 
     return(
-         <div className="fixed top-0 z-50 w-full">
+         <div className="fixed top-0 z-50 w-full font-light leading-tight text-black tracking-tighter">
         <div className=" h-16 bg-white flex text-3xl gap-5 font-luxurious justify-between items-center pl-16 pr-11 border-b border-b-black ">
        <div> <p>In COM </p></div>
-
-
         <div className="  flex text-lg gap-5 font-luxurious ">
   <NavLink to="/" className={linkClass}>
             Home
