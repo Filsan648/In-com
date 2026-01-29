@@ -8,7 +8,7 @@ import StatsSection from "~/Compement/Home/state";
 import Team from "~/Compement/Home/team";
 import Client  from "~/Compement/Home/client";
 import Footer from "~/Compement/Generale/footer";
-
+import income_video from "app/asset/video/income.mp4";
 export default function Home() {
   return (<div className="bg-white font-luxurious flex flex-col gap-10">
 
@@ -18,8 +18,8 @@ export default function Home() {
     <Logos />
     </div>
     <Service />
-       <Projecttext />
-        <Video />
+    <Projecttext />
+    <Video videos={income_video} />
         <StatsSection />
         <Team />
          <Client />

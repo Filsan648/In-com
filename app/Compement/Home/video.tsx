@@ -22,7 +22,7 @@ function CircularText({ text, isPlaying }: { text: string; isPlaying: boolean })
   );
 }
 
-function Video() {
+function Video({videos}:{videos:string}) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -66,7 +66,7 @@ function Video() {
           playsInline
           className={`w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105 ${!isPlaying ? 'grayscale-[0.5] blur-[2px]' : ''}`}
         >
-          <source src={income_video} type="video/mp4" />
+          <source src={videos} type="video/mp4" />
         </video>
 
    
