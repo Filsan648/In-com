@@ -1,7 +1,7 @@
 import Title from "../asset/Tile";
 
 function Postion(){
-    
+
 return(
     <div className="flex md:flex-row text-white   flex-col  justify-between bg-[#801010] px-6 py-10 items-center gap-20">
    <div>
@@ -17,10 +17,7 @@ Notre approche repose sur <span className="text-yellow-500/60">une vision strat�
 Nous pensons la communication comme un <span className="text-yellow-500/60">levier d’affaires</span>, pas seulement comme un outil de visibilité.
 </p>
 </div>
-
-
-
-    </div>
+</div>
 )
 }
 export default Postion;

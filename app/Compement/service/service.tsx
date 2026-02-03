@@ -6,6 +6,7 @@ import print from "app/asset/service/print.png"
 import eventvideo from "app/asset/service/event.mp4"
 import prod_video from "app/asset/service/prod.mp4"
 import { Link } from "react-router"
+
   const services = [
   {
     title: "In Event",
@@ -13,7 +14,7 @@ import { Link } from "react-router"
     "Événementiel clé en main : conception créative, régie générale, scénographie, scènes mobiles, écrans LED et déploiement terrain maîtrisé de bout en bout.",
     image:null,
     video: eventvideo,
-    color:"group-hover:bg-indigo-950/80",
+    color:"group-hover:bg-indigo-950/90",
     path:"/service/event"
   },
   {
@@ -21,7 +22,7 @@ import { Link } from "react-router"
     description:
     "Identité visuelle et direction artistique : logos, chartes graphiques et univers créatifs conçus pour durer et marquer les esprits.",
     image: design,
-    color:"group-hover:bg-pink-400/80",
+    color:"group-hover:bg-pink-400/90",
     path:"/service/design"
   },
   {
@@ -29,7 +30,7 @@ import { Link } from "react-router"
     description:
     "Communication digitale stratégique : gestion des réseaux sociaux, création de contenus, calendriers éditoriaux et animation de communautés engagées.",
     image: connect,
-    color:"group-hover:bg-cyan-500/80",
+    color:"group-hover:bg-cyan-500/90",
     path:"/service/connect"
   },
   {
@@ -37,7 +38,7 @@ import { Link } from "react-router"
     description:
     "Formats incarnés et médias narratifs : talk-shows, interviews, podcasts et contenus portés par des voix locales authentiques et influentes.",
     image: voice,
-    color:"group-hover:bg-amber-800/80 ",
+    color:"group-hover:bg-amber-800/90 ",
     path:"/service/voice"
   },
   {
@@ -46,7 +47,7 @@ import { Link } from "react-router"
     "Production audiovisuelle complète : films institutionnels, publicités, aftermovies, contenus digitaux et captations multicaméras.",
     image: null,
     video:prod_video,
-    color:"group-hover:bg-red-950/80",
+    color:"group-hover:bg-red-950/90",
     path:"/service/prod"
   },
   {
@@ -54,7 +55,7 @@ import { Link } from "react-router"
     description:
     "Impression et signalétique : bâches, adhésifs, panneaux et objets personnalisés, produits en interne avec une exigence de qualité constante.",
     image: print,
-    color:"group-hover:bg-pink-950/80",
+    color:"group-hover:bg-pink-950/90",
     path:"/service/print"
   }
 ]

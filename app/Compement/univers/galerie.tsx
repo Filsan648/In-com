@@ -24,7 +24,7 @@ export default function GalerieBlanche() {
   return (
     <section className="bg-white min-h-screen px-6 md:px-6 text-zinc-900">
       {/* Header Style Magazine */}
-      <div className="max-w-[1600px] mx-auto mb-20 ">
+      <div className="max-w-[1600px] mx-auto mb-20">
         <div>
            <Title title="L’univers in’COM : là où la créativité prend forme"   subtitle="Notre univers" />
           

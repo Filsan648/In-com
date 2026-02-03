@@ -1,37 +1,20 @@
 import React from "react";
 import Title from "~/Compement/asset/Tile";
-// Tes imports d'images
-import image1 from "app/asset/project/event/image1.png";
-import image2 from "app/asset/project/event/image2.png";
-import image3 from "app/asset/project/event/image3.png";
-import image4 from "app/asset/project/event/image4.png";
-import image5 from "app/asset/project/event/image5.png";
-import image6 from "app/asset/project/event/image6.png";
-import image7 from "app/asset/project/event/image7.png";
-import image8 from "app/asset/project/event/image8.png";
-import image9 from "app/asset/project/event/image9.png";
-import image10 from "app/asset/project/event/image10.png";
-import image11 from "app/asset/project/event/image11.png";
-import image12 from "app/asset/project/event/image12.png";
-import bg from "app/asset/background/image.png"
-const projects = [
-  { id: "01", name: "L’organisation du 16ᵉ Forum de Haut Niveau du Secteur Privé de l’Union africaine",description:"in’COM a accompagné l’Union africaine dans l’organisation et la coordination du 16ᵉ Forum de Haut Niveau du Secteur Privé de l’Union africaine, tenu à Djibouti du 8 au 10 décembre. L’équipe a assuré une gestion opérationnelle rigoureuse, contribuant au succès d’un événement panafricain majeur dédié à l’économie numérique, à l’innovation, au commerce intra-africain et au développement durable." ,images: [image1, image10,image2 ], color: "#e5e5e5"},
-  { id: "02", name: "Salon du Tourisme Djibouti 2025", images: [image11, image4, image5],description:"in’COM a été Partenaire Communication Officiel du Salon du Tourisme Djibouti 2025, organisé par l’Agence Nationale du Tourisme de Djibouti (ANT).L’agence a assuré la stratégie de communication, la création de contenus, le design visuel, l’habillage des écrans LED et la couverture de l’événement, en valorisant l’image et l’attractivité touristique de Djibouti." ,color: "#d1d1d1" ,bg:"bg-[#801010] " },
-  { id: "03", name: "HLB Middle East & Africa Conference 2025 – Djibouti",description:"in’COM a assuré la conception, l’organisation et la coordination globale de la HLB Middle East & Africa Conference 2025 à Djibouti. De la gestion logistique à la mise en scène de l’événement, l’équipe a veillé à offrir une expérience fluide, professionnelle et à forte valeur ajoutée, reflétant l’image et les standards internationaux du réseau HLB." ,images: [ image9,image12, image8], color: "#b5b5b5"},
-];
 
-function Projet_event() {
+
+
+function Projet_event({projets,title}:{projets:Array<any>,title:string}) {
   return (
     <div className=" min-h-screen  "  >
             <div className="text-center">
-    <Title title="Nos réalisations in event" subtitle="Projets" />
+    <Title title={title} subtitle="Projets" />
         </div>
-       {projects.map((project, idx) => (
+       {projets.map((project, idx) => (
         <section key={project.id} className={` ${project.bg} mt-6 px-6 min-h-screen relative flex flex-col justify-center py-10 border-b border-white/5`}>
           <div className="  mb-16">
             <div className="max-w-xl">
-              <span className="text-yellow-500/60 font-mono mb-4 block tracking-widest">// PROJECT  {project.id}</span>
-              <h2 className="text-xl md:text-2xl  tracking-tighter  leading-none">
+  
+              <h2 className="text-xl md:text-3xl  tracking-tighter  leading-none">
                 {project.name}
               </h2>
                

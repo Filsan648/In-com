@@ -7,8 +7,7 @@ export default function Service() {
   return (<div className="bg-white font-luxurious flex flex-col gap-10">
 
     <Menue />
-
-    <Services />
+       <Services />
           <Footer />
   </div>);
 }
