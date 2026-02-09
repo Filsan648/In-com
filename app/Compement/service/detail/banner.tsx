@@ -1,9 +1,9 @@
 import images from "app/asset/service/event.png"
 
-function Banner(){
+function Banner({image,title}:{image:string,title:string}){
     return(
 <div className="w-full h-screen">
-<img src={images} className="object-cover w-full h-full" />
+<img src={image} alt={title} className="object-cover w-full h-full" />
 </div>
     )
 }

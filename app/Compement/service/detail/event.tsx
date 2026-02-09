@@ -5,6 +5,7 @@ import Footer from "~/Compement/Generale/footer";
 import Intro from "app/Compement/service/detail/Eventcompement/intro";
 import Projet_event from "app/Compement/service/detail/Eventcompement/projets_event";
 import Video from "app/Compement/service/detail/Eventcompement/video";
+import banner from "app/asset/service/event.png"
 
 
 // Tes imports d'images
@@ -30,7 +31,7 @@ function Event() {
   return (
     <div className="flex flex-col gap-10  font-luxurious bg-white ">
       <Menue />
-      <Banner />
+      <Banner image={banner} title="Event" />
       <Intro intro="Organiser un événement, c’est transformer une vision en une expérience mémorable. Chez Income Événementiel, nous ne nous contentons pas de fournir du matériel : nous orchestrons votre projet de A à Z grâce à nos solutions clé en main."   expertice={[
                 "Conception & Conseil Stratégique",
                 "Régie Générale & Technique",

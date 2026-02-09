@@ -6,6 +6,8 @@ export default [
        route("service", "routes/service.tsx"),
        route("service/event", "Compement/Service/detail/event.tsx"),
        route("service/prod", "Compement/Service/detail/prod.tsx"),
+       route("service/print", "Compement/Service/detail/print.tsx"),
+       route("service/pact", "Compement/Service/detail/pact.tsx"),
        
        
 

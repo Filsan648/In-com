@@ -12,8 +12,8 @@ import { Link } from "react-router"
     title: "In Event",
     description:
     "Événementiel clé en main : conception créative, régie générale, scénographie, scènes mobiles, écrans LED et déploiement terrain maîtrisé de bout en bout.",
-    image:null,
-    video: eventvideo,
+    image:voice,
+ 
     color:"group-hover:bg-indigo-950/90",
     path:"/service/event"
   },
@@ -34,12 +34,13 @@ import { Link } from "react-router"
     path:"/service/connect"
   },
   {
-    title: "In Voice",
+    title: "In pact",
     description:
     "Formats incarnés et médias narratifs : talk-shows, interviews, podcasts et contenus portés par des voix locales authentiques et influentes.",
-    image: voice,
+    image: null,
+    video: eventvideo,
     color:"group-hover:bg-amber-800/90 ",
-    path:"/service/voice"
+    path:"/service/pact"
   },
   {
     title: "In Prod",
