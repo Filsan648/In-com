@@ -8,7 +8,7 @@ export default [
        route("service/prod", "Compement/Service/detail/prod.tsx"),
        route("service/print", "Compement/Service/detail/print.tsx"),
        route("service/pact", "Compement/Service/detail/pact.tsx"),
-       
+       route("Blog", "routes/Blog.tsx"),
        
 
 ] satisfies RouteConfig;

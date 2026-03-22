@@ -25,13 +25,14 @@ import { Link } from "react-router"
     color:"group-hover:bg-pink-400/90",
     path:"/service/design"
   },
-  {
-    title: "In Connect",
+   {
+    title: "In Prod",
     description:
-    "Communication digitale stratégique : gestion des réseaux sociaux, création de contenus, calendriers éditoriaux et animation de communautés engagées.",
-    image: connect,
-    color:"group-hover:bg-cyan-500/90",
-    path:"/service/connect"
+    "Production audiovisuelle complète : films institutionnels, publicités, aftermovies, contenus digitaux et captations multicaméras.",
+    image: null,
+    video:prod_video,
+    color:"group-hover:bg-red-950/90",
+    path:"/service/prod"
   },
   {
     title: "In pact",
@@ -42,15 +43,15 @@ import { Link } from "react-router"
     color:"group-hover:bg-amber-800/90 ",
     path:"/service/pact"
   },
-  {
-    title: "In Prod",
+   {
+    title: "In Connect",
     description:
-    "Production audiovisuelle complète : films institutionnels, publicités, aftermovies, contenus digitaux et captations multicaméras.",
-    image: null,
-    video:prod_video,
-    color:"group-hover:bg-red-950/90",
-    path:"/service/prod"
+    "Communication digitale stratégique : gestion des réseaux sociaux, création de contenus, calendriers éditoriaux et animation de communautés engagées.",
+    image: connect,
+    color:"group-hover:bg-cyan-500/90",
+    path:"/service/connect"
   },
+
   {
     title: "In Print",
     description:

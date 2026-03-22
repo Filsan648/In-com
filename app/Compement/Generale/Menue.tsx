@@ -18,7 +18,7 @@ const linkClass = ({ isActive }: { isActive: boolean }) =>
           </NavLink>
 <NavLink to="/univers" className={linkClass}>Univers</NavLink>
 <NavLink to="/service" className={linkClass}>Service</NavLink>
-
+<NavLink to="/Blog" className={linkClass}>Blog</NavLink>
         </div>
 
         </div>
